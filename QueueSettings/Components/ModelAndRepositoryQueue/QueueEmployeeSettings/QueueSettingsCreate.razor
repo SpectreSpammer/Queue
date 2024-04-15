@@ -1,0 +1,40 @@
+﻿@page "/queueSettings/create"
+@rendermode InteractiveServer
+
+@inject BlazorTutorialUdemy.Components.LearnBlazor.ModelAndRepository.Business.Repository.IRepository.IQueueSettingsRepository _queueSettingsRepository
+@inject NavigationManager _navigationManager
+
+<div class="row my-2">
+        <h3 class="card-title text-primary mb-3 ml-3"> @Title Queue</h3>
+        
+        <div class="col-10">
+        <EditForm Model="queueSettingsDTO" OnValidSubmit="CreateQueue">
+            <DataAnnotationsValidator/>
+            @*@<ValidationSummary/>*@
+                <div class="form-group">
+                    <label> Name </label>
+                <InputText @bind-Value="queueSettingsDTO.QueueName" class="form-control" />
+                <ValidationMessage For="()=> queueSettingsDTO.QueueName"></ValidationMessage>
+                </div>
+
+                <div class="form-group py-2">
+                <button class="btn btn-primary"> @Title</button>
+                <NavLink href="category" class="btn btn-secondary">Back to Index</NavLink>
+
+                </div>
+            </EditForm>
+        </div>
+</div>
+
+@code {
+    private QueueEmployeeSettingsDTO queueSettingsDTO { get; set; } = new QueueEmployeeSettingsDTO();
+    private string Title { get; set; } = "Create";
+
+    private void CreateQueue()
+    {
+        _queueSettingsRepository.Create(queueSettingsDTO);
+        _navigationManager.NavigateTo("queueSettings");
+
+       
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\UdemyBlazor\\QueueSettings\\QueueSettings\\QueueSettings\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QueueSettings.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QueueSettings.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\UdemyBlazor\\QueueSettings\\QueueSettings\\QueueSettings\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\UdemyBlazor\\QueueSettings\\QueueSettings\\QueueSettings\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\UdemyBlazor\\QueueSettings\\QueueSettings\\QueueSettings\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\UdemyBlazor\\QueueSettings\\QueueSettings\\QueueSettings\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QueueSettings.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QueueSettings.props",
+      "PackagePath": "build\\QueueSettings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QueueSettings.props",
+      "PackagePath": "buildMultiTargeting\\QueueSettings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QueueSettings.props",
+      "PackagePath": "buildTransitive\\QueueSettings.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

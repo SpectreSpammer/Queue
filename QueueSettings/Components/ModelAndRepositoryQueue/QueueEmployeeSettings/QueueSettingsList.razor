@@ -1,0 +1,49 @@
+﻿@page "/queueSettings"
+@rendermode InteractiveServer
+
+@inject BlazorTutorialUdemy.Components.LearnBlazor.ModelAndRepository.Business.Repository.IRepository.IQueueSettingsRepository _queueSettingsRepository
+
+
+<div class="row mt-4">
+    <div class="col-6">
+        <h4 class="card-title text-info">Queue List</h4>
+    </div>
+
+    <div class="col-4 offset-2">
+        <a href="category/create" class="btn btn-info form-control">Add New Queue</a>
+    </div>
+
+    <div class="col-12">
+        @if (QueueSettings.Any())
+        {
+            <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    @foreach (var queueSettings in QueueSettings)
+                    {
+                        <tr>
+                            <td><input type="checkbox" />        @queueSettings.QueueName</td>
+                        </tr>
+                        <NavLink href="" ActiveClass="btn btn-primary">Edit</NavLink>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+</div>
+
+@code {
+    private IEnumerable<QueueEmployeeSettingsDTO> QueueSettings { get; set; } = new List<QueueEmployeeSettingsDTO>();
+
+    protected override void OnInitialized()
+    {
+        QueueSettings = _queueSettingsRepository.GetAll();
+    }
+}

@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QueueSettings
+build_property.RootNamespace = QueueSettings
+build_property.ProjectDir = E:\Program Files (x86)\Blazor Web Pages\UdemyBlazor\QueueSettings\QueueSettings\QueueSettings\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Program Files (x86)\Blazor Web Pages\UdemyBlazor\QueueSettings\QueueSettings\QueueSettings
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/ModelAndRepositoryQueue/QueueEmployeeSettings/QueueSettingsCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RlbEFuZFJlcG9zaXRvcnlRdWV1ZVxRdWV1ZUVtcGxveWVlU2V0dGluZ3NcUXVldWVTZXR0aW5nc0NyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/ModelAndRepositoryQueue/QueueEmployeeSettings/QueueSettingsList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RlbEFuZFJlcG9zaXRvcnlRdWV1ZVxRdWV1ZUVtcGxveWVlU2V0dGluZ3NcUXVldWVTZXR0aW5nc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-agf4p75czz
+
+[E:/Program Files (x86)/Blazor Web Pages/UdemyBlazor/QueueSettings/QueueSettings/QueueSettings/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-co18abj3af
